@@ -1,0 +1,11 @@
+[package]
+name = "statechart"
+edition = "2018"
+version = "0.1.0"
+authors = ["Hans W. Uhlig <huhlig@gmail.com>"]
+description = "State Chart Machine System and File loading"
+license = "Apache2 OR MIT"
+keywords = ["statechart"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
